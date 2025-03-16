@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: openvpn
+  labels:
+    kubernetes.io/metadata.name: openvpn
+    name: openvpn
+  selfLink: /api/v1/namespaces/openvpn
+status:
+  phase: Active
+spec:
+  finalizers:
+    - kubernetes
